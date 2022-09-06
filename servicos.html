@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>João Fernandes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="color: #06a24f; background-image:url(imagem/mlt2.png);">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large  w3-large"  href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="Somos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><b>Quem Somos / Contato</b></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><b>Serviços</b></a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="Somos.html" class="w3-bar-item w3-button w3-padding-large">Quem Somos / Contato</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Serviços</a>
+    
+  </div>
+</div>
+
+<!-- Header -->
+<div class="w3-container w3-center bgimg w3-display-container w3-grayscale-min" style="padding:100px 16px; background-image: url(imagem/consultorio.jpg);">
+  
+  
+</div>
+
+
+
+<!-- Teste -->
+
+
+
+<div class="w3-center w3-light-grey">
+  <div class="w3-section">
+    <h1>Tipos de Serviços</h1>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">Saúde</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">Seguros</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">Financeiro</button>
+
+</div>
+
+
+
+<div class=" w3-light-grey">
+<div class="w3-content" >
+
+
+
+  <!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container mySlides w3-animate-opacity" id="começa">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="color: #06a24f;" >PLANOS DE SAÚDE</h1>
+      <h5 class="w3-padding-32">O que é?  É a contratação prévia de serviços médicos hospitalar e Odonto; firmado entre uma operadora de planos e uma pessoa física(uma pessoa)  ou jurídica(várias pessoas) como empresas privadas; públicas; Associações; sindicatos; ongs e outros regulamentados pela ANS agência nacional de saúde. </h5> 
+    </div>
+
+    <div class="w3-third w3-center">
+      <br>
+      
+      
+      <img src="imagem/saude.jpg" class="w3-round w3-round w3-margin-right w3-padding-64" style="width:100%">
+    </div>
+
+    <h3 class="w3-xlarge " id="modalidade" style="color: #06a24f"><li><b>Seguros Saúde</b></li></h3>
+    <p>Seu funcionamento é semelhante a um seguro tradicional. O cliente paga o prêmio (mensalidade), que varia conforme o risco potencial de futuros custos com tratamentos.</p>
+
+
+    <h3 class="w3-xlarge " style="color: #06a24f"><li><b>Modalidades</b></li></h3>
+    
+<div class="w3-bar " id="contrato" style="background-image: url(imagem/mlt2.png);">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')"><h5 style="color: #06a24f">Familiar</h5></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')"><h5 style="color: #06a24f">Individual</h5></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')"><h5 style="color: #06a24f">Coletivo</h5></button>
+</div>
+
+<div id="London" class="w3-container city w3-panel w3-leftbar w3-border-green w3-pale-green">
+  <h2 style="color: #06a24f">Plano de Saúde Familiar</h2>
+  <p>Os planos familiares são indicados para quem deseja contratar o serviço para mais de um membro da família. A grande vantagemé que o pacote acaba saindo muito mais em conta do que o plano individual.</p>
+  <p>A adesão também é livre e acobertura vai depender da opção escolhida pelo segurado e firmada em contrato - o mesmo vale para o período de carência. Além disso, o número de dependentes inclusos pode variar de acordo com a operadora contratada.</p>
+</div>
+
+<div id="Paris" class="w3-container city w3-panel w3-leftbar w3-border-green w3-pale-green" style="display:none">
+  <h2 style="color: #06a24f">Plano de Saúde Individual</h2>
+  <p>O plano de saude individual é focado nas suas necessidades particulares. È ideal para quem não tem ou não pretende  construir família e gostaria de obter descontos ou gratuidade em consultas e, também, em acomodações hospitalares, no caso de internações.</p> 
+  <p>Nessse modelo, a adesão é livre e qualquer pessoa física pode contratar esse tipo de plano. A cobertura vai depender do contrato firmado, assim como o periodo de carência. Os pagamentos podem ser feitos diretamente com o coretor ou com a operadora contratada.</p>
+</div>
+
+<div id="Tokyo" class="w3-container city w3-panel w3-leftbar w3-border-green w3-pale-green" style="display:none">
+  <h2 style="color: #06a24f">Planos de Saúde Coletivo por Adesão / Empresarial</h2>
+  <p>Os planos de saúde coletivos são voltados para atender aos grupos de pessoas que compartilham alguma afinidade wm sua área de atuação, cargo ou categgoria proficional. Nessecaso, é exigido o vínculo com alguma entidade de classe, sindicato ou instituição representante.</p>
+  <p>Os planos empresariais, como o próprio nome diz, são feitos para pessoas que trabalham em uma mesma empresa. É exigido o vinculo empregatício ou estatuário com a pessoa jurídica contratante do plano.</p>
+</div>
+
+<h3 class="w3-xlarge " style="color: #06a24f"><li><b>Planos de Saúde para MEI</b></li></h3>
+<p>Essa modalidade de plano só esta disponivel para Microempresario
+individual que possui um funcionario
+contratado, de modo que nao é possivel  contratar  esse tipo de plano individualmente. Assim como as demais modalidades, a cobertura varia de acordo com os procedimentos escolhidos  já a cobrança eo periodo de carencia  funcionam da mesma forma que o plano
+empresarial.</p>
+
+
+
+
+
+
+
+    <h3 class="w3-xlarge " style="color: #06a24f"><li><b>Como Contratar / Cancelar</b></li></h3>
+      <b>COMO CONTRATAR</b> 
+      <p>1- Procure um corretor de sua confiança.        2 - Solicite uma cotação de preços e compare levando em conta "O custo-benefícios.                   3 - Entenda os termos do contrato "deveres e direitos"       4 - Envie a documentação solicitadas.                  5 - Pague a primeira parcela ao corretor ou empresa que ele indicar (corretora ou operadora)                    6 - Receba cópias do contrato em mãos ou eletronicamente.          7 - Aguarde a carteirinha no prazo indicado pelo corretor.                        8 - O contrato tem sua validade pra uso independente da carteirinha; basta apresentar contrato e documento de identificação (RG e CPF).
+    </p>
+    <b>COMO CANCELAR</b>
+    <p>1 - Procure o corretor que elaborou seu contrato e siga suas orientações.  2 - Verifique no contrato a operadora e envie seu pedido de cancelamento por e-mail ou Whats ou carta ou presidencial.                3 - Observe as clausulas de permanencia (Fidelidade ) no contrato pra não gerar custos desnecessarios.  ORIENTE-SE COM SEU CORRETOR.</p>
+  </div>
+
+
+
+
+
+
+</div>
+
+<!-- Fim First Grid -->
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container mySlides w3-animate-opacity">
+  <div class="w3-content">
+    <div class="w3-third ">
+      
+      <img src="imagem/seguros.jpg" class="w3-round w3-margin-right w3-padding-64" style="width:95%">
+      
+    </div>
+
+    <div class="w3-twothird">
+      <h1 style="color: #06a24f;">SEGUROS</h1>
+      <h5 class="w3-padding-32 ">O seguro é uma operação que toma forma jurídica de um contato, em que uma das partes (segurador) se obriga para com a outra (segurado ou seu beneficiário), mediante o recebimento de um valor monetário estipulado (prêmio), a compensá-la (indenização0 por um prejuízo (sinistro), resultante de um evento futuro possivel.</h5>
+
+    </div>
+
+    <h3 class="w3-xlarge " id="Empresarial" style="color: #06a24f"><li><b>Seguros Gerais</b></li></h3>
+    <p>Os seguros são divididos em várias categorias e dentro desta classificação existem para cada uma classe; ramificações quase intermináveis ,por este motivo é fundamental a intermediação do corretor/técnico que ajudará na tomada de decisão assertiva qto ao melhor custo-benéfico do tipo de seguro, e a melhor seguradora pra cada tipo de produto. Pois existem uma boa seguradora especializada pra cada tipo de produto. Nem sempre uma só seguradora é ideal pra todos os produtos de um cliente.</p>
+
+    <h3 class="w3-xlarge " id="pessoal" style="color: #06a24f"><li><b>Empresarial</b></li></h3>
+    <p>O Seguro Empresarial tem como objetivo proteger sua Empresa contra danos ao Prédio e ao seu conteúdo, como máquinas, móveis, utensílios, mercadorias e matérias–primas, independentemente do tamanho ou segmento que atua, garantindo que, em caso de imprevistos, as atividades do seu negócio não sejam prejudicadas.
+    </p>
+    
+    <h3 class="w3-xlarge " id="patrimonial" style="color: #06a24f"><li><b>Pessoal</b></li></h3>
+    <p>O seguro de acidentes pessoais cobre morte e invalidez permanente (total ou parcial) e outros riscos causados – unicamente – por acidente. ... É um dos ramos dos “seguros de pessoas”, que garante uma indenização ao segurado ou a seus beneficiários caso um dos riscos cobertos venha a se concretizar.
+    </p>
+    <h3 class="w3-xlarge " style="color: #06a24f"><li><b>Patrimonial</b></li></h3>
+      <p>Seguros contra incêndio, roubo de imóveis bem como os seguros compreensivos residenciais, condominiais e empresariais.
+    </p>
+    
+    
+   
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+<!-- Fim Second Grid -->
+
+
+<!-- Terceiro Grid -->
+
+<div class="w3-row-padding w3-padding-64 w3-container mySlides w3-animate-opacity">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="color: #06a24f;">FINANCEIRO</h1>
+      <h5 class="w3-padding-32 ">O mercado financeiro é um ambiente que reúne um conjunto de instituições, entre tomadores de recursos e investidores, permitindo a negociação de produtos financeiros, como títulos públicos, ações, fundos de investimento e outros.</h5>
+      
+
+      
+    </div>
+
+    <div class="w3-third w3-center">
+      <br>
+      
+      
+      <img src="imagem/financeiro.jpg" class="w3-round w3-round w3-margin-right w3-padding-64" style="width:100%">
+    </div>
+
+    <h3 class="w3-xlarge" style="color: #06a24f"><li><b>Investimentos</b></li></h3>
+    <p>Em economia, em linhas gerais, investimento significa a aplicação de capital com a expectativa de um  benefício futuro. O investimento produtivo se realiza quando a taxa de lucro sobre o capital supera ou é pelo menos igual à taxa de juros ou quando os lucros sejam maiores ou iguais ao capital investido.</p>
+
+
+    <h3 class="w3-xlarge" style="color: #06a24f"><li><b>Previdência Privada</b></li></h3>
+    <p>A previdência privada é uma aposentadoria que não está ligada ao sistema do Instituto Nacional do Seguro Social (INSS). Ela é complementar à previdênca pública. Todo setor de previdênca privada é fiscaizado pela Superintendência de Seguros Privados (Susep), órgão do governo federal.
+    </p>
+  </div>
+</div>
+<!-- Fim Terceiro Grid -->
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+
+    <h1 class="w3-margin w3-xlarge">A vida é uma festa!</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <h6>Joaofernandes.segurossaude@gmail.com</h6>
+    <h6>13 98826-4002</h6>
+    <h6>____</h6>
+
+    <a href="mailto:Joaofernandes.segurossaude@gmail.com"><i class="fa fa-whatsapp  w3-hover-opacity"></i></a>
+
+    <a href="https://api.whatsapp.com/send?phone=5513988264002"><i class="fa fa-google w3-hover-opacity"></i></a>
+   
+   
+ </div>
+ <p >&copy; 4Tree</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-green", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-green";
+}
+
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+
+
+
+</script>
+
+</body>
+</html>
